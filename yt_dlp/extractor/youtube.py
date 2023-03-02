@@ -3784,7 +3784,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
             if no_video:
                 dct['abr'] = tbr
             if no_audio or no_video:
-                CHUNK_SIZE = 10 << 20
+                CHUNK_SIZE = 1 << 20
                 dct.update({
                     'protocol': 'http_dash_segments',
                     'fragments': [{
