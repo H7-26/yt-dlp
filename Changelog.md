@@ -4,6 +4,20 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.03.07.210948
+
+#### Core changes
+- Merge branch 'master' of https
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/ea82ef26c2ed501dd27496db6bfb262fb777117a) by [pukkandan](https://github.com/pukkandan)
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/77e809adff2c925b2a6d7f3f166e85efbdbf11ab) by [pukkandan](https://github.com/pukkandan)
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/a611711871408cdd90aaa3b850d7a74739e9c07a) by [pukkandan](https://github.com/pukkandan)
+
+#### Extractor changes
+- nubilesporn
+    - [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/d4e6ef40772e0560a8ed33b844ef7549e86837be) ([#6231](https://github.com/yt-dlp/yt-dlp/issues/6231)) by [permunkle](https://github.com/permunkle)
+- teamcoco
+    - [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/c459d45dd4d417fb80a52e1a04e607776a44baa4) ([#6437](https://github.com/yt-dlp/yt-dlp/issues/6437)) by [bashonly](https://github.com/bashonly)
+
 ### 2023.03.04
 
 #### Extractor changes
