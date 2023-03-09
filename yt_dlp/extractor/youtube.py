@@ -3750,7 +3750,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
             if single_stream and dct.get('ext'):
                 dct['container'] = dct['ext'] + '_dash'
             if single_stream or itag == '17':
-                CHUNK_SIZE = 10 << 20
+                CHUNK_SIZE = 1 << 20
                 dct.update({
                     'protocol': 'http_dash_segments',
                     'fragments': [{
