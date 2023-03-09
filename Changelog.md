@@ -4,6 +4,33 @@
 # To create a release, dispatch the https://github.com/yt-dlp/yt-dlp/actions/workflows/release.yml workflow on master
 -->
 
+### 2023.03.09.033920
+
+#### Core changes
+- [Create release_hourly.yml](https://github.com/yt-dlp/yt-dlp/commit/f76a868da4a39b3e95bc5bca977eab67e54ee872) by [pukkandan](https://github.com/pukkandan)
+- Merge branch 'master' of https
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/ea82ef26c2ed501dd27496db6bfb262fb777117a) by [pukkandan](https://github.com/pukkandan)
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/77e809adff2c925b2a6d7f3f166e85efbdbf11ab) by [pukkandan](https://github.com/pukkandan)
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/a611711871408cdd90aaa3b850d7a74739e9c07a) by [pukkandan](https://github.com/pukkandan)
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/1bf0d54a5ad43c0f69fe1b64ca7bef4ce7f84fe1) by [pukkandan](https://github.com/pukkandan)
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/f3f5d9c62ca89b020f985422e3fd00aad13896c1) by [pukkandan](https://github.com/pukkandan)
+    - [//github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/commit/381ada5c71f97e620144bfaac9c0138da790a95f) by [pukkandan](https://github.com/pukkandan)
+- cookies
+    - [Defer extraction of v11 key from keyring](https://github.com/yt-dlp/yt-dlp/commit/9b7a48abd1b187eae1e3f6c9839c47d43ccec00b) by [Grub4K](https://github.com/Grub4K)
+- utils
+    - `write_string`: [Fix noconsole behavior](https://github.com/yt-dlp/yt-dlp/commit/3b479100df02e20dd949e046003ae96ddbfced57) by [Grub4K](https://github.com/Grub4K)
+
+#### Extractor changes
+- chilloutzone
+    - [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/6f4fc5660f40f3458882a8f51601eae4af7be609) ([#6445](https://github.com/yt-dlp/yt-dlp/issues/6445)) by [bashonly](https://github.com/bashonly)
+- nubilesporn
+    - [Add extractor](https://github.com/yt-dlp/yt-dlp/commit/d4e6ef40772e0560a8ed33b844ef7549e86837be) ([#6231](https://github.com/yt-dlp/yt-dlp/issues/6231)) by [permunkle](https://github.com/permunkle)
+- teamcoco
+    - [Fix extractor](https://github.com/yt-dlp/yt-dlp/commit/c459d45dd4d417fb80a52e1a04e607776a44baa4) ([#6437](https://github.com/yt-dlp/yt-dlp/issues/6437)) by [bashonly](https://github.com/bashonly)
+
+#### Postprocessor changes
+- [Fix chapters if duration is not extracted](https://github.com/yt-dlp/yt-dlp/commit/01ddec7e661bf90dc4c34e6924eb9d7629886cef) ([#6037](https://github.com/yt-dlp/yt-dlp/issues/6037)) by [bashonly](https://github.com/bashonly)
+
 ### 2023.03.04
 
 #### Extractor changes
