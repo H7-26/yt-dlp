@@ -3630,7 +3630,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
             return live_status
 
     def _extract_formats_and_subtitles(self, streaming_data, video_id, player_url, live_status, duration):
-        CHUNK_SIZE = 10 << 20
+        CHUNK_SIZE = 2 << 20
         itags, stream_ids = collections.defaultdict(set), []
         itag_qualities, res_qualities = {}, {0: None}
         q = qualities([
